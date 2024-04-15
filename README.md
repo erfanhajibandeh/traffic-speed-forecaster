@@ -38,7 +38,7 @@ More about the dataset and the preprocessing methods can be found in these publi
 
 ## Figures
 
-The following visualizations demonstrate the various aspects of the models and their performance:
+The following visualizations demonstrate the various aspects of the models and their performance for selected 26 segments out of 228:
 
 - **Figure 1**: Graph adjacency between the 26 road segments (shown as nodes). This visual helps illustrate the interconnections within the traffic network as modeled in the GNN.
   ![Figure 1](images/Figure_1.png)
@@ -56,22 +56,11 @@ These results collectively underscore the efficacy of the GNN/LSTM model in traf
 
 ## Citation
 
-If you find this project useful or use the dataset in your own research, please cite the following works:
+If you find this project useful or use the dataset in your own research, please consider citing the following works:
 
-```bibtex
-@article{yu2017spatiotemporal,
-  title={Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting},
-  author={Yu, Bing and Yin, Haoteng and Zhu, Zhanxing},
-  journal={arXiv preprint arXiv:1709.04875},
-  year={2017}
-}
+- Keras Time Series Traffic Forecasting Example: [Visit here](https://keras.io/examples/timeseries/timeseries_traffic_forecasting/)
+- STGCN on Spatio-Temporal Data GitHub Repository: [Visit here](https://github.com/VeritasYin/STGCN_IJCAI-18)
+- Spatio-temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting (arXiv): [Read the paper](https://arxiv.org/pdf/1709.04875.pdf)
 
-@misc{khodadadi2021traffic,
-  title={Traffic forecasting using graph neural networks and LSTM},
-  author={Khodadadi, Arash},
-  year={2021},
-  publisher={GitHub},
-  howpublished={\url{https://github.com/VeritasYin/STGCN_IJCAI-18}}
-}
 
 
